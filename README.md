@@ -1,9 +1,9 @@
 # cih-hoche.github.io
 [Beta]Site web du CIH
 
-[*]=Fait\n
+[*]=Fait
 [-]=A Faire
 
-ToDoList:\n
-*Voir les membres\n
-*Faire une accueil\n
+ToDoList:
+*Voir les membres
+*Faire une accueil
