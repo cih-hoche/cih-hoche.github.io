@@ -1,0 +1,36 @@
+body {
+  margin-top: 50px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 100%;
+  background: #2c3e50;
+  color: #ecf0f1;
+  z-index: 1000;
+}
+
+nav ul {
+  display: flex;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: max-content;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 0 20px 0 0;
+  text-transform: uppercase;
+}
+
+nav ul li a {
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #ecf0f1;
+}
