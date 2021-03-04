@@ -85,7 +85,8 @@ section {
 }
 
 section img {
-  height: 500px;
+  max-height: 500px;
+  max-width: 90%;
   border-radius: 10px;
   box-shadow: 0 0 20px 0 rgb(0 0 0 / 15%), 0 25px 30px 0 rgb(0 0 0 / 35%);
 }
@@ -106,6 +107,9 @@ section .presentation_section {
 @media (max-width: 1520px) {
   section .presentation_section {
     text-align: center;
+  }
+  section .presentation_section p {
+    padding: 5%;
   }
 }
 
