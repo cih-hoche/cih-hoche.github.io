@@ -1,6 +1,8 @@
 body {
   font-family: sans-serif;
   margin: 0;
+  background: #34495e;
+  color: #ecf0f1;
 }
 
 header {
@@ -42,8 +44,6 @@ header h1 {
 }
 
 section {
-  background: #34495e;
-  color: #ecf0f1;
   position: relative;
   padding: 50px 0;
   display: flex;
