@@ -1,3 +1,28 @@
 body {
   font-family: sans-serif;
+  background: #34495e;
+  color: #ecf0f1;
+}
+
+article {
+  text-align: center;
+  padding-top: 10px;
+}
+
+article h1 {
+  text-transform: uppercase;
+  font-size: 32px;
+}
+
+article p a {
+  color: #ecf0f1;
+}
+
+article ul {
+  padding: 0;
+}
+
+article ul li {
+  list-style: none;
+  line-height: 32px;
 }
