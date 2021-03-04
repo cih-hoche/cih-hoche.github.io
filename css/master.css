@@ -12,10 +12,15 @@ nav {
   width: 100%;
   background: #2c3e50;
   color: #ecf0f1;
+  z-index: 1000;
 }
 
 nav ul {
   display: flex;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: max-content;
 }
 
 nav ul li {
@@ -63,4 +68,27 @@ header h1 {
   text-align: center;
   text-transform: uppercase;
   color: white;
+}
+
+section {
+  background: #34495e;
+  color: #ecf0f1;
+  position: relative;
+  height: 500px;
+  padding: 50px;
+}
+
+section img {
+  position: relative;
+  left: 0;
+  top: 0;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 0 rgb(0 0 0 / 15%), 0 25px 30px 0 rgb(0 0 0 / 35%);
+}
+
+section .presentation_section {
+  position: relative;
+  text-align: right;
+  margin-top: -500px;
 }
