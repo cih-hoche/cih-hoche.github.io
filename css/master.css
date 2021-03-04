@@ -17,6 +17,7 @@ header {
 header::before {
   content: "";
   backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
   pointer-events: none;
   width: 100%;
   height: 100%;
