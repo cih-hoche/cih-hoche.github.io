@@ -19,11 +19,13 @@ nav ul {
   left: 50%;
   transform: translateX(-50%);
   width: max-content;
+  padding: 0;
+  margin: 5px;
 }
 
 nav ul li {
   list-style: none;
-  padding: 0 20px 0 0;
+  padding: 10px;
   text-transform: uppercase;
   border-radius: 5px;
   transition: .3s;
