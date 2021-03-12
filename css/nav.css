@@ -25,6 +25,8 @@ nav ul li {
   list-style: none;
   padding: 0 20px 0 0;
   text-transform: uppercase;
+  border-radius: 5px;
+  transition: .3s;
 }
 
 nav ul li a {
@@ -33,4 +35,8 @@ nav ul li a {
   font-weight: bold;
   font-size: 14px;
   color: #ecf0f1;
+}
+
+nav ul li:hover {
+  background: #223446;
 }
