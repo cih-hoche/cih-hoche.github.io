@@ -62,6 +62,10 @@ section .presentation_section {
   text-align: right;
 }
 
+section .presentation_section.section_sans_image {
+  text-align: center;
+}
+
 @media (max-width: 620px) {
   .long_text {
     display: none;
