@@ -40,24 +40,28 @@ header h1 {
 
 main{
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 main section {
   display: flex;
   flex-flow: row;
   background-color: #3d5369;
-  padding: 5px;
+  padding: 1em;
 }
 
 main section:nth-child(n+2) {
   margin-top: 10px;
 }
 
-main section img {
-  max-width: 25%;
+main section .imagediv {
+    min-width: 50%;
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
 }
 
-main section:nth-child(even) img {
+main section:nth-child(even) .imagediv {
   order: 20;
 }
 
@@ -115,10 +119,14 @@ main section .presentation_section {
   }
 }
 
-* {
-  max-width: 100%;
+footer{
+  min-height: 50px;
+  padding-top: 50px;
+  background-color: #34495e;
+  text-align: center;
 }
 
 .max-limited{
-  max-width: 1024px;
+  max-width: 1536px;
+  width: 100%;
 }
