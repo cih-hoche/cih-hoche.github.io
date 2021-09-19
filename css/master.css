@@ -1,6 +1,7 @@
 body {
   font-family: sans-serif;
   margin: 0;
+  margin-top: 800px;
   background: #34495e;
   color: #ecf0f1;
 }
@@ -13,7 +14,8 @@ header {
   background: url("/img/header.jpg");
   background-position: bottom;
   background-size: cover;
-  position: relative;
+  position: absolute;
+  top: 0;
 }
 
 header::before {
@@ -64,6 +66,39 @@ section .presentation_section {
 
 section .presentation_section.section_sans_image {
   text-align: center;
+}
+
+.sn_master {
+  background: #34495e;
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  z-index: 10;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  box-shadow: 0 0 8px #000;
+}
+
+.sn_div {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  transition: .2s;
+}
+.sn_div:hover {
+  background:#233446;
+}
+
+.sn_div i {
+  font-size: 48px;
+  color: #fff;
+}
+
+.sn_details {
+  display: none;
 }
 
 @media (max-width: 620px) {
