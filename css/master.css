@@ -15,7 +15,7 @@ header {
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 80vh;
+  height: 60vh;
   padding: 0;
   margin: 0;
   background: url("/img/header.jpg");
@@ -70,8 +70,8 @@ main section .presentation_section {
   flex-grow: 1;
 }
 
-main section .presentation_section {
-  padding-inline: 20px;
+main section .presentation_section p {
+  padding-inline: 100px;
 }
 
 
