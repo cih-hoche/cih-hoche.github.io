@@ -55,7 +55,7 @@ main section:nth-child(n+2) {
 }
 
 main section .imagediv {
-    min-width: 50%;
+    min-width: 60%;
     min-height: 500px;
     background-size: cover;
     background-position: center;
@@ -66,12 +66,35 @@ main section:nth-child(even) .imagediv {
 }
 
 main section .presentation_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   flex-grow: 1;
 }
 
 main section .presentation_section p {
-  padding-inline: 100px;
+  padding-inline: 80px;
+  justify-content: space-between;
+}
+
+@media (max-width: 620px) {
+  header {
+    height: 20vh;
+  }
+  
+  main section {
+    flex-flow: column;
+  }
+
+  main section:nth-child(even) .imagediv {
+    order: 0;
+  }
+
+  main section .presentation_section p {
+    padding-inline: 20px;
+  }
 }
 
 
@@ -121,7 +144,7 @@ main section .presentation_section p {
 
 footer{
   min-height: 50px;
-  padding-top: 50px;
+  padding-top: 20px;
   background-color: #34495e;
   text-align: center;
 }
