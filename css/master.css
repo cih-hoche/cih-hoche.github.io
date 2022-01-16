@@ -55,6 +55,7 @@ main{
   margin-top: 20px;
   margin-bottom: 20px;
   background: #34495e;
+  z-index: 2;
 }
 
 main section {
