@@ -33,7 +33,7 @@ header {
   left: 0;
   width: 100%;
   height: 60vh;
-  z-index: -1;
+  z-index: 0;
 }
 
 header h1 {
@@ -44,6 +44,7 @@ header h1 {
   text-transform: uppercase;
   color: white;
   padding: 30px;
+  z-index: 2;
 }
 
 .short_text {
