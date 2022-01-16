@@ -25,7 +25,7 @@ header {
 }
 
 .headerbg {
-  background: url("/img/header.jpg");
+  background-image: url("/img/header.jpg");
   background-position: bottom;
   background-size: cover;
   position: fixed;
