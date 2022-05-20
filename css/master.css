@@ -1,3 +1,10 @@
+:root {
+  --club-color: #99E1D9;
+  --informatique-color: #93E5AB;
+  --de-color: #E7EB90;
+  --hoche-color: #EDDDD4;
+}
+
 body {
   font-family: sans-serif;
   margin: 0;
@@ -26,7 +33,7 @@ header {
 
 .headerbg {
   background-image: url("/img/header.jpg");
-  background-position: bottom;
+  background-position: center;
   background-size: cover;
   position: fixed;
   top: 0;
@@ -42,9 +49,34 @@ header h1 {
   font-weight: bolder;
   text-align: center;
   text-transform: uppercase;
-  color: white;
+  color: transparent;
   padding: 30px;
   z-index: 2;
+}
+
+header > h1 > span#text-Club {
+  -webkit-text-stroke: 1px var(--club-color);
+}
+header > h1.shadowOn > span#text-Club {
+  text-shadow: 1px 1px 20px var(--club-color);
+}
+header > h1 > span#text-Informatique {
+  -webkit-text-stroke: 1px var(--informatique-color);
+}
+header > h1.shadowOn > span#text-Informatique {
+  text-shadow: 1px 1px 20px var(--informatique-color);
+}
+header > h1 > span#text-De {
+  -webkit-text-stroke: 1px var(--de-color);
+}
+header > h1.shadowOn > span#text-De {
+  text-shadow: 1px 1px 20px var(--de-color);
+}
+header > h1 > span#text-Hoche {
+  -webkit-text-stroke: 1px var(--hoche-color);
+}
+header > h1.shadowOn > span#text-Hoche {
+  text-shadow: 1px 1px 20px var(--hoche-color);
 }
 
 .short_text {
@@ -73,7 +105,7 @@ main section .imagediv {
     min-width: 60%;
     min-height: 500px;
     background-size: cover;
-    background-position: center;
+    background-position: center left;
 }
 
 main section:nth-child(even) .imagediv {
@@ -92,6 +124,25 @@ main section .presentation_section {
 main section .presentation_section p {
   padding-inline: 80px;
   justify-content: space-between;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3); 
+  border-radius: 10px;
+  background-clip: padding-box;
+  border: 3px solid transparent;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.5);
+  background-clip: padding-box;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar:disabled {
+  display: none;
 }
 
 @media (max-width: 620px) {
