@@ -52,6 +52,9 @@ header h1 {
   color: transparent;
   padding: 30px;
   z-index: 2;
+  user-select: none;
+  -webkit-user-select: none;
+  cursor: text;
 }
 
 header > h1 > span#text-Club {

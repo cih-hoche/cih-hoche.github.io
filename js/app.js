@@ -59,4 +59,11 @@ async function continuousTitleAnimation() {
     continuousTitleAnimation();
 }
 
+title.onmousedown = function () {
+    title.classList.remove("shadowOn");
+}
+title.onmouseup = function () {
+    title.classList.add("shadowOn");
+}
+
 startTitleAnimation();
