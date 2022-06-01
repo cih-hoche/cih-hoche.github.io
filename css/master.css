@@ -21,13 +21,11 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   width: 100%;
   height: 60vh;
   padding: 0;
   margin: 0;
-  /*background: url("/img/header.jpg");
-  background-position: bottom;
-  background-size: cover;*/
   top: 0;
 }
 
@@ -80,6 +78,21 @@ header > h1 > span#text-Hoche {
 }
 header > h1.shadowOn > span#text-Hoche {
   text-shadow: 1px 1px 20px var(--hoche-color);
+}
+
+header a {
+  background: rgba(255, 255, 255, 0.17);
+  border: solid 1px rgba(255, 255, 255, 0.317);
+  color: #fff;
+  z-index: 2;
+  padding: 14px 20px;
+  font-size: 20px;
+  text-decoration: none;
+  transition: .1s;
+}
+
+header a:hover {
+  background: rgba(255, 255, 255, 0.13);
 }
 
 .short_text {
