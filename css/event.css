@@ -69,3 +69,24 @@ footer {
     padding: 10px 0;
     text-align: center;
 }
+
+.bigbutton-a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.bigbutton {
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.17);
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 32px;
+    border: solid 1px rgba(255, 255, 255, 0.317);
+    transition: .2s;
+}
+.bigbutton:hover {
+    background: rgba(255, 255, 255, 0.12);
+}
