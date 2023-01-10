@@ -30,7 +30,7 @@ header {
 }
 
 .headerbg {
-  background-image: url("/img/header.jpg");
+  background-image: url("/img/header.png");
   background-position: center;
   background-size: cover;
   position: fixed;
