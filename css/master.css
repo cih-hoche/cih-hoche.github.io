@@ -183,6 +183,7 @@ main section .presentation_section p {
 /* SIDE NAV */
 
 .sn_master {
+  /*width: 100px;*/
   background-color: #3d5369;
   position: fixed;
   top: 50%;
@@ -201,14 +202,26 @@ main section .presentation_section p {
   text-align: center;
   cursor: pointer;
   transition: .2s;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  /*align-items: center;*/
+  /*justify-content: center;*/
+}
+
+.sn_div a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
 }
 .sn_div:hover {
   background:#233446;
 }
 
-.sn_div i {
-  font-size: 48px;
-  color: #fff;
+.sn_div img {
+  width: 100%;
+  height: 100%;
 }
 
 .sn_details {
@@ -234,4 +247,25 @@ footer{
 .max-limited{
   max-width: 1536px;
   width: 100%;
+}
+
+.inscription {
+  /*width: 100px;*/
+  background-color: #34495e;
+  position: fixed;
+  display: flex;
+  bottom: 20px;
+  right: 10px;
+  z-index: 10;
+  border-radius: 10px;
+  border: 1px solid #FFFF;
+  box-shadow: 0 0 8px rgb(0, 0, 0, 0.8);
+}
+.inscription > a {
+  margin: 0;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: .2s;
 }
